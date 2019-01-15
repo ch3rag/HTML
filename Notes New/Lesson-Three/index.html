@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Lesson Three</title>
+		<style> 
+			body {
+				background-color: white;
+				background-image: url('./logo.png');
+				background-repeat: no-repeat; /* repeat, no-repeat, repeat-x, repeat-y */
+				background-attachment: fixed; /* scroll, fixed */
+				background-position: 50% 50%;
+				font-size: normal;
+			}
+			
+			.tableStyle {
+				font-family: Arial, Helvatica, serif;
+				text-algin: left;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				background-color: white;
+				border: 2px solid #2A52BE;
+				border-collapse: collapse; /* separate, collapse */
+				width: 50%;
+				caption-side: bottom;
+				}
+		
+			.tableHeader {
+				background-color: #2A52BE;
+				color: white;
+			}
+			
+			tr:nth-child(even) {
+				background-color:silver;
+				color: white;
+			
+			}
+			
+			caption {
+				font-family: verdana;
+				font-style: italic;
+			}
+			
+			.boxElem {
+				border-color: orange;
+				border-style: ridge; /* solid, dotted, dashed, inset, outset, ridge, groove, double */
+				border-width: 2px; /* thin, medium, thick, %, px */
+				border-right-width: 50px;
+				border-right-style: solid;
+				background-image: url('./zlogo.png');
+				background-repeat: no-repeat;
+				background-position: top left;
+				color: black;
+				font-weight: bolder;
+				line-height: 1.5em;
+				font-family: verdana, arial, serif;
+				font-style: italic;
+				margin: 10px;
+				padding: 20px;
+				padding-left: 60px;
+				background-color: white;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<br /><br />
+		<span class="boxElem">Random Text</span>
+		<h2>Bullet Types</h2>
+		<ul>
+			<li style="list-style-type: disc">Random</li>
+			<li style="list-style-type: circle">Random</li>
+			<li style="list-style-type: square">Random</li>
+			<li style="list-style-type: decimal">Random</li>
+			<li style="list-style-type: decimal-leading-zero">Random</li>
+			<li style="list-style-type: lower-roman">Random</li>
+			<li style="list-style-type: upper-roman">Random</li>
+			<li style="list-style-type: lower-greek">Random</li>
+			<li style="list-style-type: lower-latin">Random</li>
+			<li style="list-style-type: upper-latin">Random</li>
+			<li style="list-style-type: armenian">Random</li>
+			<li style="list-style-type: georgian">Random</li>
+		</ul>
+		
+		<table class="tableStyle">
+			<caption>Students Data</caption>
+			<tr class="tableHeader">
+				<td>Name</td>
+				<td>Phone</td>
+				<td>Address</td>
+			</tr>
+			<tr>
+				<td>Chirag Singh</td>
+				<td>1234567890</td>
+				<td>Vikas Nagar</td>
+			</tr>
+			<tr>
+				<td>Bharat Rajput</td>
+				<td>9846273452</td>
+				<td>Aliganj</td>
+			</tr>
+			<tr>
+				<td>Amar Maurya</td>
+				<td>1234123452</td>
+				<td>Rajajipuram</td>
+			</tr>
+			<tr>
+				<td>Avinash Yadav</td>
+				<td>5672234590</td>
+				<td>Hazratganj</td>
+			</tr>
+		</table>
+		<h2>Cursor Styles</h2>
+		<ul>
+			<li style="cursor: crosshair;">Random</li>
+			<li style="cursor: default;">Random</li>
+			<li style="cursor: help;">Random</li>
+			<li style="cursor: move;">Random</li>
+			<li style="cursor: n-resize;">Random</li>
+			<li style="cursor: ne-resize;">Random</li>
+			<li style="cursor: e-resize;">Random</li>
+			<li style="cursor: se-resize;">Random</li>
+			<li style="cursor: s-resize;">Random</li>
+			<li style="cursor: sw-resize;">Random</li>
+			<li style="cursor: w-resize;">Random</li>
+			<li style="cursor: nw-resize;">Random</li>
+			<li style="cursor: text;">Random</li>
+			<li style="cursor: pointer;">Random</li>
+			<li style="cursor: progress;">Random</li>
+			<li style="cursor: wait;">Random</li>
+		</ul>
+	</body>
+</html>

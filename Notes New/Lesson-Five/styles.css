@@ -1,0 +1,102 @@
+.dropdown {
+	display: inline-block;
+	margin-top: 10px;
+}
+.dropdown-button {
+	background-color: #e6ebe0;
+	border-radius: 2px;
+	padding: 5px 20px;
+	color: teal;
+	border: 2px solid #9bc1bc;
+	font-family: "Trebuchet MS", arial, serif;
+	text-shadow: 1px 1px 2px #9bc1bc;
+	cursor: pointer;
+	transition: 0.5s ease-in;
+}
+
+.dropdown-button:hover {
+	background-color: #5ca4a9;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+	
+}
+
+.dropdown-content {
+	visibility: hidden;
+	opacity: 0;
+	background-color: #f9f9f9;
+	position: absolute;
+	min-width: 75px;
+	text-align: left;
+	font-size: small;
+	line-height: 1.5em;
+	box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.2), 0 6px 20px 0px rgba(0, 0, 0, 0.2);
+	transition: visibility 0s .5s linear, opacity 0.5s linear;
+	
+}
+
+.dropdown:hover .dropdown-content{
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0s;
+}
+
+.dropdown-content a {
+	display: block;
+	color: black;
+	font-family: arial, serif;
+	text-decoration: none;
+	margin-left: 2px;
+}
+
+body {
+	background-color: #FFF;
+}
+
+
+header {
+	background-color: #006;
+	color: #FFF;
+	padding: 20px;
+}
+
+footer {
+	background-color: #006;
+	color: #FFF;
+	padding: 20px;
+}
+
+#lypsum {
+	background-color: #FAF0E6; 
+	margin-left: 190px;
+	margin-right: 190px;
+	
+}
+
+#logobox {
+	text-align: center;
+	width: 150px;
+	border-width: 2px;
+	border-style: dotted;
+	background-color: #E0FFFF;
+	border-color: #4682B4;
+	line-height: 0.2em;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+}
+
+#logobox2 {
+	text-align: center;
+	text-align: center;
+	width: 150px;
+	border-width: 2px;
+	border-style: dotted;
+	background-color: #E0FFFF;
+	border-color: #4682B4;
+	line-height: 0.2em;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}

@@ -1,0 +1,54 @@
+::-webkit-scrollbar {
+    display: none;
+} 
+
+html  {
+    scroll-behavior: smooth;
+}
+
+div.scroll-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /*overflow: hidden;*/
+}
+
+div.scroll-section > span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10em;
+    color: white;
+}
+
+
+div.fixed {
+    position: absolute;
+    width: 100vw;
+    z-index: 5;
+}
+
+div.scroll-section:nth-child(1) {
+    background-color: aqua;
+}
+
+div.scroll-section:nth-child(2) {
+    background-color: yellow;
+}
+
+div.scroll-section:nth-child(3) {
+    background-color: salmon;
+}
+
+div.scroll-section:nth-child(4) {
+    background-color: skyblue;
+}
+
+div.scroll-section:nth-child(5) {
+    background-color: teal;
+}

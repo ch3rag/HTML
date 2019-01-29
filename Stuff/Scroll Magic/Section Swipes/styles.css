@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+
+}
+.spacer {
+    min-height: 100px;
+    text-align: center;
+
+}
+
+.spacer.s2 {
+    min-height: 200px;
+}
+
+.spacer.s0 {
+    min-height: 1px;
+}
+
+.spacer.viewport {
+    min-height: 100vh;
+}
+.box2 {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    border: 0px solid white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 5px;
+} 
+
+.skin {
+    background-color: #ED9F4C;
+}
+
+section.demo * {
+    font-size: 13px;
+}
+
+section.demo {
+    text-align: center;
+    font-size: 0;
+
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+.teal {
+    background-color: teal;
+}
+
+.red {
+    background-color: red;
+}
+
+section.panel {   
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section.panel > p {
+    font-family: "Trebuchet MS";
+    color: white;
+    font-size: xx-large;
+    display: inline-block;
+}

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Trim';
+    src: url('TrimWeb.woff') format('woff');
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+}
+
+div#logo-container {
+    font-family: Trim, arial, serif;
+    color: white;
+    font-size: 4em;
+    letter-spacing: -0.1em;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 8px;
+
+
+}
+
+div#logo-container:hover > span {
+    color: #E132F0;
+    text-shadow: 1px 1px 2px #9132F0
+}
+
+.nav-top {
+    position: relative;
+}
+
+span.sup {
+    position: relative;
+    font-family: Trim, arial, serif;
+    font-size: 0.7em;
+    top: -10px;
+}
+
+div.menu-option {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+div.menu-option:hover {
+    transform: rotateY(45deg);
+}
+
+div.menu-option > div {
+    padding: 3px 25px;
+    margin: 8px 8px;
+    display: block;
+    background-color: #E132F0;
+    border-radius: 3px;
+
+}

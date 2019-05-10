@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    font-family: "Tangerine";
+    background-color: rgb(241, 112, 97)
+}
+
+/* CENTER THE LOGO */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-image: linear-gradient(to bottom, #ff5c85, rgb(241, 112, 97));
+}
+
+/* SET WIDTH OF LOGO IMAGE 25% OF SCREEN WIDTH */
+header img {
+    width: 25vw; 
+    display: block;
+}
+
+nav {
+    width: 100%
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vw;
+}
+
+ul li {
+    padding: 1% 2%;
+    margin: 0 2%;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+li:hover {
+    background-color: #4d4d4d;
+}
+
+.heading-text {
+    text-align: center;
+    font-size: 3vw;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.heading-text hr {
+    border: 1px groove black;
+    width: 50%;
+    height: 0;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto auto;
+    z-index: 0;
+}
+
+.heading-text h2 {
+    position: relative;
+    z-index: 99;
+    background:  rgb(241, 112, 97);
+    padding: 0px 20px;
+    display: inline-block;
+} 
+
+.gallary-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallary-item {
+    width: 22%;
+    margin: 10px auto;
+    border: 2px solid black;
+    background: black;
+    background-image: linear-gradient(to bottom, red, black);
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.image-container  img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.item-description   {
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 2vw;
+    font-family: satisfy;
+    color: white;
+    margin-top: auto;
+    align-self: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-container {
+    display:flex;    
+    color: black;
+}
+
+.profile-picture {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .heading-text  h2 {
+    background-color: blanchedalmond;
+}
+
+.profile-picture img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid black;
+}
+
+.about {
+    background-color: blanchedalmond;
+    width: 95%;
+    margin: 50px auto;  
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.about-text-container {
+    width: 70%;
+}
+
+.about-text-container p {
+    font-family: "Satisfy";
+    font-size: 2vw;
+}
+
+.about-text-container p+p{
+    font-family: "Tangerine";
+    font-size: 2vw;
+}
+
+
+.my-name {
+    font-family: Rajdhani;
+    font-size: 5vw;
+}
+
+footer {
+    height: 15vh;
+    background: black;
+    color: white;
+    font-family: "Satisfy";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    margin: auto;
+    font-size: 3vw;
+}
+
+footer p + p{
+    font-size: 2vw;
+}
+@media screen and (max-width: 1000px) {
+    header {
+        height: 10vh;
+    }
+    ul {
+        font-size: 3vh;
+    }
+    header img {
+        width: 30vw; 
+    }
+
+    .gallary-item {
+        width: 40%;
+
+    }
+    .heading-text {
+        font-size: 3vh;
+    }
+    .heading-text hr {
+        width: 80%;
+    }
+
+    .profile-picture img {
+        width: 15vw;
+        height: 15vw;
+    }
+    .about-text-container p {
+        font-size: 2vh;
+    }
+    
+    .about-text-container p+p{
+        font-size: 2vh;
+    }
+    .my-name {
+        font-size: 4vh;
+    }
+
+    footer {
+        height: 10vh;
+    }
+
+    footer p {
+        font-size: 3vh;
+    }
+
+    footer p + p{
+        font-size: 2vh;
+    }
+}
